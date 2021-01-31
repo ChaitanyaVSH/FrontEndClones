@@ -28,11 +28,6 @@ ul {
 }
 
 /* NavBar */
-.main-nav .logo {
-  width: 150px;
-  height: 100px;
-}
-
 .main-nav {
   display: flex;
   align-items: center;
@@ -40,6 +35,11 @@ ul {
   height: 60px;
   padding: 20px 0;
   font-size: 13px;
+}
+
+.main-nav .logo {
+  width: 150px;
+  height: 100px;
 }
 
 .main-nav ul {
@@ -58,4 +58,23 @@ ul {
 
 .main-nav ul.main-menu {
   margin-right: auto;
+}
+
+/* Showcase section */
+.showcase {
+}
+
+.btn {
+  display: inline-block;
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  cursor: pointer;
+  border: 0;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.btn:hover {
+  opacity: 0.8;
 }
