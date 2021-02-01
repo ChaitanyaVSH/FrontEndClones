@@ -331,6 +331,9 @@ Styles are effective for 700px and smaller screens.
 
     /* Moving it out of the screen when the menu is not clicked */
     transform: translateX(-500px);
+
+    /* Adding a smooth transition effect */
+    transition: transform 0.3s ease-in-out;
   }
 
   .main-nav ul.main-menu li {
