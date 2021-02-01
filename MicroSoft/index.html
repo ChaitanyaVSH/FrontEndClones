@@ -17,7 +17,7 @@
         <nav class="main-nav">
             <img src="./images/mslogo.jpg" alt="mslogo" class="logo">
 
-            <ul class="main-menu show">
+            <ul class="main-menu">
                 <li><a href="#">Office</a></li>
                 <li><a href="#">Windows</a></li>
                 <li><a href="#">Surface</a></li>
@@ -229,4 +229,26 @@
         </div>
     </footer>
 </body>
+<script>
+    let button = document.querySelector('.menu-btn')
+
+    let toggle = true;
+
+    button.addEventListener("click", ()=>{
+        let menu = document.querySelector(".main-menu").classList.toggle("show")
+
+        // Vague approach
+        // if(toggle)
+        // {
+        //     menu.classList.add("show");
+        // }
+        // else{
+        //     menu.classList.remove("show");
+        // }
+
+        // toggle= !toggle;
+    })
+
+
+</script>
 </html>
