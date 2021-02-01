@@ -287,3 +287,36 @@ ul {
 .footer ul li a:hover {
   border-bottom: 2px solid #262626;
 }
+
+/* 700 px and below 
+Styles are effective for 700px and smaller screens.
+*/
+@media (max-width: 700px) {
+  .home-cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .xbox-content {
+    width: 50%;
+  }
+
+  .xbox-content p {
+    display: none;
+  }
+
+  .xbox-content a {
+    margin-top: 20px;
+    background-color: white;
+    color: black;
+  }
+
+  .carbon-content {
+    width: 85%;
+    padding-top: 135px;
+    padding-left: 50px;
+  }
+
+  .links .links-inner {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
