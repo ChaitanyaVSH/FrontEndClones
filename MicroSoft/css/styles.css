@@ -190,3 +190,19 @@ ul {
   background-color: white;
   color: black;
 }
+
+.socialshare {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.socialshare * {
+  margin-right: 8px;
+}
+
+.socialshare img {
+  width: 30px;
+  height: 30px;
+  border: 1px solid lightgray;
+}
