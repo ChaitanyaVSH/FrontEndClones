@@ -320,3 +320,24 @@ Styles are effective for 700px and smaller screens.
     grid-template-columns: repeat(3, 1fr);
   }
 }
+
+/* 500 px and below
+Styles are effective for 500px and smaller screens.
+*/
+@media (max-width: 500px) {
+  .home-cards {
+    grid-template-columns: 1fr;
+  }
+
+  .home-cards div img {
+    width: 100%;
+  }
+
+  .links .links-inner {
+    grid-template-columns: 1fr;
+  }
+
+  .links .links-inner ul {
+    margin-bottom: 20px;
+  }
+}
