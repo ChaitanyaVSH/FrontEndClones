@@ -234,6 +234,9 @@ img {
   grid-template-columns: 2fr 1fr;
   grid-gap: 1rem;
   margin-top: 2rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 /* Table */
@@ -262,4 +265,22 @@ img {
 .table tbody tr:nth-child(even) {
   background: #222;
   color: white;
+}
+
+/* Footer styles */
+.footer-cols {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin: 2rem 0;
+  padding: 2rem;
+  border: 1px solid var(--primary-color);
+}
+
+.footer-cols ul li {
+  line-height: 3;
+  text-align: left;
+}
+
+.footer-cols ul li:hover {
+  border-bottom: 1px solid red;
 }
