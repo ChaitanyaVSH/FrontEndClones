@@ -31,10 +31,6 @@ a {
   text-decoration: none;
 }
 
-a:hover {
-  text-decoration: underline;
-}
-
 p {
   margin: 0.5rem 0;
 }
@@ -80,6 +76,7 @@ img {
 }
 /* ###################################################################### */
 
+/* Showcase top which holds logo and sign in */
 .showcase-top {
   position: relative;
   height: 90px;
@@ -98,4 +95,30 @@ img {
   top: 45%;
   right: 0;
   transform: translate(-50%, -50%);
+}
+
+/* Showcase content which holds the content */
+.showcase-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 15rem;
+}
+
+.showcase-content h1 {
+  font-size: 5.2rem;
+  font-weight: 700;
+  line-height: 1.1;
+  margin-bottom: 2rem;
+}
+
+.showcase-content p {
+  text-transform: uppercase;
+  color: white;
+  font-weight: 400;
+  font-size: 1.9rem;
+  line-height: 1.25;
+  margin: 0 0 2rem;
 }
