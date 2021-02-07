@@ -86,6 +86,9 @@ img {
   /* Top of everything */
   z-index: 1;
   background: rgba(0, 0, 0, 0.6);
+
+  /* Shadow inset */
+  box-shadow: inset 320px 100px 250px #000000, inset -320px -100px 250px #000000;
 }
 /* ###################################################################### */
 
