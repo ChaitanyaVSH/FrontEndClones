@@ -228,3 +228,38 @@ img {
   text-align: center;
   margin-top: 2rem;
 }
+
+#tab-3-content .tab-3-content-top {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-gap: 1rem;
+  margin-top: 2rem;
+}
+
+/* Table */
+.table {
+  width: 100%;
+  margin: 3rem 0;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.table thead th {
+  text-transform: uppercase;
+  padding: 0.8rem;
+}
+
+.table tbody tr td {
+  color: #999;
+  padding: 0.8rem 1rem;
+  height: 30px;
+}
+
+.table tbody tr td:first-child {
+  text-align: left;
+}
+
+.table tbody tr:nth-child(even) {
+  background: #222;
+  color: white;
+}
