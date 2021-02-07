@@ -176,7 +176,7 @@ img {
 
 .tabs {
   background: var(--dark-color);
-  padding-top: 1rem;
+  padding: 2rem 0;
   border-bottom: 3px solid #3d3d3d;
 }
 
@@ -184,11 +184,17 @@ img {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 1rem;
+  justify-content: space-between;
 }
 
 .tabs p {
   font-size: 1.2rem;
   padding-top: 0.5rem;
+}
+
+.tabs .container div {
+  width: 40%;
+  margin: auto;
 }
 
 .tabs .container > div:hover {
@@ -201,6 +207,19 @@ img {
 }
 
 /* Tab Contents */
+
+/* Hide content initially */
+#tab-1-content,
+#tab-2-content,
+#tab-3-content {
+  display: none;
+  min-height: 500px;
+}
+
+.show {
+  display: block !important;
+}
+
 #tab-1-content .tab-1-content-inner {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
