@@ -13,6 +13,7 @@ body {
 
 :root {
   --primary-color: #e50914;
+  --dark-color: #141414;
 }
 
 ul {
@@ -68,6 +69,15 @@ img {
   padding: 1.5rem 2.1rem;
   text-transform: uppercase;
 }
+
+.container {
+  max-width: 70%;
+  margin: auto;
+  overflow: hidden;
+  text-align: center;
+  padding: 0 2rem;
+}
+
 .showcase {
   width: 100%;
   height: 93vh;
@@ -140,4 +150,32 @@ img {
   font-size: 1.9rem;
   line-height: 1.25;
   margin: 0 0 2rem;
+}
+
+/* Tabs */
+
+.tabs {
+  background: var(--dark-color);
+  padding-top: 1rem;
+  border-bottom: 3px solid #3d3d3d;
+}
+
+.tabs .container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1rem;
+}
+
+.tabs p {
+  font-size: 1.2rem;
+  padding-top: 0.5rem;
+}
+
+.tabs .container > div:hover {
+  cursor: pointer;
+  color: white;
+}
+
+.tab-border {
+  border-bottom: 4px solid var(--primary-color);
 }
