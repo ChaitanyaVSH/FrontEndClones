@@ -29,7 +29,6 @@ ul {
   height: 38px;
   padding: 0 20px;
   margin-right: 2px;
-  margin-left: 10px;
 }
 
 /* Header */
@@ -209,4 +208,40 @@ footer {
   text-align: center;
   margin-top: 10px;
   padding-top: 5px;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .button1 {
+    margin-top: 10px;
+    text-align: center;
+  }
+  header .container {
+    display: block;
+  }
+
+  header nav ul li {
+    text-align: center;
+    margin: auto;
+  }
+
+  #newsletter .container {
+    display: block;
+    text-align: center;
+  }
+
+  #newsletter .container input,
+  #newsletter .container button {
+    width: 100%;
+  }
+
+  #boxes .container {
+    display: block;
+  }
+
+  #boxes .box {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+  }
 }
