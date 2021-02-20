@@ -29,6 +29,7 @@ ul {
   height: 38px;
   padding: 0 20px;
   margin-right: 2px;
+  margin-left: 10px;
 }
 
 /* Header */
@@ -183,6 +184,21 @@ aside#sidebar {
   padding: 20px;
   background: #35424a;
   color: white;
+}
+
+/* Services.html */
+#main-col ul {
+  list-style: none;
+}
+#main-col ul li {
+  background: lightgray;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+aside#sidebar .quote label,
+aside#sidebar .quote input {
+  margin: 10px;
 }
 
 /* Footer */
