@@ -29,11 +29,25 @@ header {
   border-bottom: 3px solid #e8491d;
 }
 
+header .highlight {
+  color: #e8491d;
+  text-decoration: overline;
+}
+
+header .highlight2 {
+  text-decoration: underline;
+}
+
 header a {
   color: white;
   text-decoration: none;
   text-transform: uppercase;
   font-size: 1rem;
+}
+
+header a:hover {
+  color: #cccccc;
+  font-weight: bold;
 }
 
 header .container {
