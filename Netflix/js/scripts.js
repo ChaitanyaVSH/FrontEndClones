@@ -12,8 +12,9 @@ function clicktoAction(event){
     this.classList.add("tab-border")
 
     // Grab the  Tab content item from DOM
-
     const tabContentItem = document.querySelector(`#${this.id}-content`)
+
+    // Add the show class to the tab item
     tabContentItem.classList.add("show")
 }
 
