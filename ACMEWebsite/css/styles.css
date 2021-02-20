@@ -206,7 +206,7 @@ footer {
   background: #e8491d;
   color: white;
   text-align: center;
-  margin-top: 10px;
+  margin-top: 10rem;
   padding-top: 5px;
 }
 
@@ -254,5 +254,73 @@ footer {
     float: left;
     width: 90%;
     padding: 10px;
+  }
+}
+
+/* Experimental CSS */
+#reviews {
+  visibility: visible;
+}
+
+.card {
+  width: 300px;
+  height: 200px;
+  color: white;
+  margin: 10px;
+  padding: 40px;
+  border-radius: 8px;
+}
+
+.card:hover {
+  box-shadow: inset 40px 40px 180px #000000, inset -40px -40px 180px #000000;
+}
+
+.card ul {
+  margin-left: 20px;
+}
+
+.card1 {
+  background: lightgreen;
+  position: absolute;
+  top: 40px;
+  left: 40px;
+}
+
+.card2 {
+  background: lightsalmon;
+}
+
+.card3 {
+  background: lightseagreen;
+  position: absolute;
+  top: 80px;
+  left: 80px;
+}
+
+#customerreviews {
+  display: flex;
+  width: 80%;
+  margin: 2rem auto;
+}
+
+.content-top {
+  position: relative;
+  margin-top: 10px;
+}
+
+.content-bottom {
+  margin-left: 8rem;
+  margin-top: 5rem;
+}
+
+/* Media Queries */
+@media (max-width: 1100px) {
+  #customerreviews {
+    display: block;
+  }
+
+  .content-bottom {
+    margin-top: 8rem;
+    margin-left: 0;
   }
 }
