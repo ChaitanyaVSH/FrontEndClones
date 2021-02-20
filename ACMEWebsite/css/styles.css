@@ -4,6 +4,14 @@ body {
   line-height: 1.5;
   margin: 0;
   padding: 0;
+  background-color: #f4f4f4;
 
   /* font: 15px/1.5 Arial, Helvatica */
+}
+
+/* Global styles */
+.container {
+  width: 80%;
+  margin: 0 auto;
+  overflow: hidden;
 }
