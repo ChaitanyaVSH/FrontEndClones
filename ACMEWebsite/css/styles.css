@@ -22,6 +22,15 @@ ul {
   padding: 0;
 }
 
+.button1 {
+  background: #e8491d;
+  color: white;
+  border: none;
+  height: 38px;
+  padding: 0 20px;
+}
+
+/* Header */
 header {
   background: #35424a;
   color: white;
@@ -125,4 +134,10 @@ header li {
 
 #newsletter form {
   margin-left: auto;
+}
+
+#newsletter input[type="email"] {
+  padding: 4px;
+  width: 250px;
+  height: 25px;
 }
