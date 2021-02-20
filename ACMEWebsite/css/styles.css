@@ -56,7 +56,7 @@ header a {
 }
 
 header a:hover {
-  color: red;
+  color: #e8491d;
   /* font-weight: bold; */
   padding-bottom: 2px;
   border-bottom: 2px solid red;
@@ -147,6 +147,7 @@ header li {
 #boxes {
   margin-top: 2rem;
 }
+
 #boxes .box {
   width: 33%;
   margin: 2rem;
@@ -169,11 +170,27 @@ header li {
   color: red;
 }
 
+/* About.html */
+#main-col {
+  float: left;
+  width: 60%;
+}
+
+aside#sidebar {
+  float: right;
+  width: 30%;
+  margin-top: 10px;
+  padding: 20px;
+  background: #35424a;
+  color: white;
+}
+
 /* Footer */
 footer {
   height: 50px;
   background: #e8491d;
   color: white;
   text-align: center;
+  margin-top: 10px;
   padding-top: 5px;
 }
