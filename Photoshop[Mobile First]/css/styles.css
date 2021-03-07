@@ -139,3 +139,20 @@ footer h3 {
     font-size: 1.2rem;
   }
 }
+
+/* Experimental CSS for top scroll button */
+#scroll-top {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  padding: 1rem;
+  margin-right: 0.4rem;
+  margin-bottom: 1rem;
+  background: lightblue;
+  border-radius: 8px;
+  color: white;
+}
+
+#scroll-top:hover {
+  border: 1px solid black;
+}
