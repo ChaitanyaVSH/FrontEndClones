@@ -121,3 +121,21 @@ footer h3 {
   font-size: 3rem;
   margin-bottom: 0;
 }
+
+/* Desktop Views */
+@media (min-width: 1000px) {
+  #landing {
+    display: flex;
+    height: 100%;
+  }
+
+  #landingText,
+  #landingImage {
+    height: 100vh;
+  }
+
+  .btn-rounded {
+    padding: 1rem 3rem;
+    font-size: 1.2rem;
+  }
+}
