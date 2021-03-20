@@ -85,3 +85,16 @@ btn:focus {
   line-height: 1;
   color: #17353d;
 }
+
+.split {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.split > * {
+  flex-basis: 30%;
+  min-width: 15rem;
+}
