@@ -27,3 +27,22 @@ img {
   width: 80%;
   margin: 0 auto;
 }
+
+.btn {
+  display: inline-block;
+  border-radius: 0.25rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: var(--clr-accent, blue);
+  color: var(--clr-text, white);
+  font-weight: 700;
+  font-size: 1.125rem;
+  padding: 0.5rem 1.25rem;
+  transition: transform 250ms ease-in-out, opacity 175ms linear;
+}
+
+.btn:hover,
+btn:focus {
+  transform: scale(1.1);
+  opacity: 0.9;
+}
