@@ -6,3 +6,24 @@
 *::after {
   box-sizing: border-box;
 }
+
+body {
+  margin: 0;
+  font-family: "Noto Sans JP";
+  line-height: 1.6;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* https://developer.mozilla.org/en-US/docs/Web/CSS/:is */
+:is(h1, h2, h3, p) {
+  margin: 0;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
