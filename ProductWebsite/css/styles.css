@@ -121,12 +121,12 @@ btn:focus {
 .featured-item::after {
   content: "";
   position: absolute;
-  padding: 100% 100% 0 0;
+  padding: 75% 75% 0 0;
   border-radius: 50%;
   height: 100%;
   width: 100%;
   background: #2193b0;
-  top: 0;
-  left: 0;
+  top: 10%;
+  left: 10%;
   z-index: -1;
 }
