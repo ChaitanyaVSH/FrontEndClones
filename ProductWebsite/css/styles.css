@@ -46,3 +46,12 @@ btn:focus {
   transform: scale(1.1);
   opacity: 0.9;
 }
+
+/* Header styles */
+.primary-title {
+  font-size: 4rem;
+  /* Responsive typography: https://youtu.be/X1dz0xRbSJc?t=1041 */
+  font-size: clamp(3rem, calc(5vw + 1rem), 4.5rem);
+  line-height: 1;
+  text-transform: uppercase;
+}
