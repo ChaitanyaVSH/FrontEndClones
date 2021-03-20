@@ -55,3 +55,18 @@ btn:focus {
   line-height: 1;
   text-transform: uppercase;
 }
+
+.section-title {
+}
+
+.hero {
+  text-align: center;
+  padding: 15rem 0;
+  color: #fff;
+
+  /* Checks if the browser supports background-blend-mode 
+  https://youtu.be/X1dz0xRbSJc?t=1283
+  */
+  background-image: url(../images/shoe-3.png), linear-gradient(#444, #111);
+  background-blend-mode: multiply;
+}
