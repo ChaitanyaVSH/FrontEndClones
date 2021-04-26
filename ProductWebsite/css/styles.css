@@ -167,3 +167,17 @@ btn:focus {
   color: black;
   line-height: 1.1;
 }
+
+/* Media queries for Desktop*/
+@media (min-width: 43rem) {
+  .product {
+    text-align: left;
+  }
+
+  .product img {
+    width: 55%;
+    float: right;
+    shape-outside: circle(50%);
+    margin: 0 -8em 0 0;
+  }
+}
