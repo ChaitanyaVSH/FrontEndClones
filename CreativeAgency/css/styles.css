@@ -55,11 +55,6 @@ p {
   letter-spacing: 4px;
 }
 
-/* Hiding the navigation by default */
-.navigation {
-  display: none;
-}
-
 /* Logo */
 .logo {
   font-size: 2rem;
@@ -67,13 +62,13 @@ p {
   position: absolute;
   top: 30px;
   left: 100px;
-  z-index: 10;
+  z-index: 11;
 }
 
 /* Toggle */
 .toggle {
   position: absolute;
-  z-index: 10;
+  z-index: 11;
   top: 10px;
   right: 10px;
   color: var(--primary-color);
@@ -89,7 +84,7 @@ section {
 }
 
 .home-content {
-  z-index: 10;
+  z-index: 9;
   max-width: 600px;
 }
 
@@ -99,4 +94,21 @@ section {
   right: 0;
   /* Decrease the height based on the browser height */
   height: 100%;
+}
+
+/* Hiding the navigation by default */
+.navigation {
+  border: 1px solid red;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  width: 100vw;
+  height: 100vh;
+  background: white;
+  display: none;
+}
+
+.show {
+  display: block;
 }
