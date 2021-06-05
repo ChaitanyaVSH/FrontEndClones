@@ -25,6 +25,11 @@ h1 {
   font-weight: 500;
 }
 
+h2 {
+  font-size: 25px;
+  font-weight: 500;
+}
+
 p {
   font-size: 1.1rem;
   margin: 20px 0 10px;
@@ -78,7 +83,7 @@ p {
 }
 
 /* section */
-section {
+.homeSection {
   display: flex;
   align-items: center;
   height: 100vh;
@@ -153,7 +158,7 @@ section {
     left: 10px;
   }
 
-  section {
+  .homeSection {
     padding: 100px 40px;
   }
 }

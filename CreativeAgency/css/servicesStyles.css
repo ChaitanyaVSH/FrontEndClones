@@ -1,0 +1,10 @@
+.servicesSection {
+  padding: 120px 100px;
+}
+
+/* Media queries for smaller devices */
+@media (max-width: 1068px) {
+  .servicesSection {
+    padding: 100px 20px;
+  }
+}
