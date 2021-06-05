@@ -36,6 +36,21 @@ p {
   transform: scale(1.5);
 }
 
+.btn {
+  background: #f60f20;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  margin: 15px 0;
+  padding: 10px 13px;
+  transition: all 250ms ease-in-out;
+  letter-spacing: 2px;
+}
+
+.btn:hover {
+  letter-spacing: 4px;
+}
+
 /* Hiding the navigation by default */
 .navigation {
   display: none;
