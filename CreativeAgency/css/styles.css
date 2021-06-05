@@ -39,3 +39,19 @@ body {
   left: 100px;
   z-index: 10;
 }
+
+/* section */
+section {
+  border: 1px solid red;
+  display: flex;
+  align-items: center;
+  height: 100vh;
+}
+
+.home-img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  /* Decrease the height based on the browser height */
+  height: 100%;
+}
