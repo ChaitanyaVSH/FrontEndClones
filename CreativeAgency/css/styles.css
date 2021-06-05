@@ -66,6 +66,16 @@ p {
   z-index: 10;
 }
 
+/* Toggle */
+.toggle {
+  position: absolute;
+  z-index: 10;
+  top: 10px;
+  right: 10px;
+  color: red;
+  cursor: pointer;
+}
+
 /* section */
 section {
   display: flex;
