@@ -1,5 +1,28 @@
+/* Services section */
 .servicesSection {
   padding: 120px 100px;
+}
+
+.services {
+  border: 1px solid red;
+  margin-top: 25px;
+}
+
+/* Cards for each service */
+.card {
+  width: 350px;
+  text-align: center;
+  padding: 10px;
+}
+
+.card > img {
+  width: 30%;
+  margin-bottom: 15px;
+}
+
+.cardParagraph {
+  margin: 0;
+  font-size: 17px;
 }
 
 /* Media queries for smaller devices */
