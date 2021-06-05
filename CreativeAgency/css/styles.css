@@ -1,3 +1,10 @@
-body {
-  color: red;
+/* Utility styles for icons */
+.fab {
+  margin: 0 5px;
+  transition: transform 250ms ease-in-out;
+  color: black;
+}
+
+.fab:hover {
+  transform: scale(1.5);
 }
