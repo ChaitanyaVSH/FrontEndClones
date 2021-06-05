@@ -29,3 +29,13 @@ body {
 .navigation {
   display: none;
 }
+
+/* Logo */
+.logo {
+  font-size: 2rem;
+  font-weight: 700;
+  position: absolute;
+  top: 30px;
+  left: 100px;
+  z-index: 10;
+}
