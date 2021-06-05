@@ -31,8 +31,8 @@ p {
 
 /* Utility styles for icons */
 .fab {
-  margin: 0 5px;
-  transition: transform 250ms ease-in-out;
+  margin: 10px 0;
+  transition: transform 150ms ease-in-out;
   color: black;
 }
 
@@ -98,7 +98,6 @@ section {
 
 /* Hiding the navigation by default */
 .navigation {
-  border: 1px solid red;
   position: absolute;
   top: 0;
   left: 0;
@@ -106,9 +105,36 @@ section {
   width: 100vw;
   height: 100vh;
   background: white;
-  display: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  visibility: hidden;
+}
+
+.navigation li {
+  list-style: none;
+}
+
+.navigation .menuitems > li > a {
+  text-decoration: none;
+  font-size: 2rem;
+  color: black;
+}
+
+.navigation .menuitems > li > a:hover {
+  border-bottom: 2px solid black;
+}
+
+.navigation .social {
+  position: absolute;
+  top: 0px;
+  left: 50px;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .show {
-  display: block;
+  visibility: visible;
 }
