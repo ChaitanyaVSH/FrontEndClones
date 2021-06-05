@@ -8,6 +8,10 @@
   box-sizing: border-box;
 }
 
+/* Root variables */
+:root {
+  --primary-color: #f60f20;
+}
 html,
 body {
   font-family: "Poppins", sans-serif;
@@ -37,7 +41,7 @@ p {
 }
 
 .btn {
-  background: #f60f20;
+  background: var(--primary-color);
   color: white;
   text-decoration: none;
   display: inline-block;
@@ -72,7 +76,7 @@ p {
   z-index: 10;
   top: 10px;
   right: 10px;
-  color: red;
+  color: var(--primary-color);
   cursor: pointer;
 }
 
