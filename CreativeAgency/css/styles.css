@@ -12,6 +12,7 @@
 :root {
   --primary-color: #f60f20;
 }
+
 html,
 body {
   font-family: "Poppins", sans-serif;
@@ -139,4 +140,20 @@ section {
 
 .show {
   visibility: visible;
+}
+
+/* Media queries for smaller devices */
+@media (max-width: 1068px) {
+  .home-img {
+    display: none;
+  }
+
+  .logo {
+    top: 10px;
+    left: 10px;
+  }
+
+  section {
+    padding: 100px 40px;
+  }
 }
