@@ -38,6 +38,19 @@ textarea {
   height: 150px;
 }
 
+.button {
+  background: red;
+  color: white;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+.button:hover {
+  transform: scale(0.98);
+}
+
 @media (max-width: 1068px) {
   .contactSection {
     padding: 100px 40px;
