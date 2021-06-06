@@ -10,6 +10,11 @@ body {
 
 .services {
   display: grid;
+
+  /* In case of grid we have to use justify-items:center; and align-items:center */
+  /* Other shorthand is to use place-items:center */
+  justify-items: center;
+  align-items: center;
   grid-template-columns: repeat(3, 1fr);
   gap: 30px;
 }
