@@ -1,0 +1,9 @@
+.contactSection {
+  padding: 100px;
+}
+
+@media (max-width: 1068px) {
+  .contactSection {
+    padding: 100px 40px;
+  }
+}
