@@ -1,11 +1,22 @@
+body {
+  overflow-x: hidden;
+}
+
 .contactSection {
   padding: 100px;
+}
+
+.contactForm {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 form {
   background: #f9f9f9;
   padding: 60px 40px 20px;
-  width: calc(100% - 400px);
+  min-width: calc(100% - 400px);
+  margin: 10px auto;
 }
 
 .row {
@@ -51,8 +62,34 @@ textarea {
   transform: scale(0.98);
 }
 
+.address {
+  background: #f9f9f9;
+  width: 350px;
+  max-width: 400px;
+  margin: 10px auto;
+  padding: 20px;
+}
+
+.addressItem {
+  padding: 10px;
+  margin-bottom: 5px;
+}
+
+.addressItem h3 {
+  margin-bottom: 10px;
+}
+
+.addressItem p {
+  margin: 0;
+}
+
 @media (max-width: 1068px) {
   .contactSection {
     padding: 100px 40px;
+  }
+
+  .input50 {
+    width: 100%;
+    margin-bottom: 10px;
   }
 }
