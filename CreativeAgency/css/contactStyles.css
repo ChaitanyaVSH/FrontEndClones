@@ -5,6 +5,7 @@
 form {
   background: #f9f9f9;
   padding: 60px 40px 20px;
+  width: calc(100% - 400px);
 }
 
 .row {
@@ -18,12 +19,10 @@ form {
 
 .input50 {
   width: 49%;
-  margin: 5px;
 }
 
 .input100 {
   width: 100%;
-  margin: 5px;
 }
 
 input,
