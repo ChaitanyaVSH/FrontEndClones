@@ -1,3 +1,27 @@
 .workSection {
   padding: 100px;
 }
+
+.portfolio {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.portfolio .item {
+  width: 300px;
+  height: 300px;
+  margin: 5px;
+  position: relative;
+}
+
+.item > img {
+  width: 100%;
+}
+
+@media (max-width: 1068px) {
+  .workSection {
+    padding: 100px 40px;
+  }
+}
