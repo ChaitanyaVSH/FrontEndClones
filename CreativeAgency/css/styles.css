@@ -11,12 +11,21 @@
 /* Root variables */
 :root {
   --primary-color: #f60f20;
+  --secondary-color: white;
+  --text-color: black;
+}
+
+.dark-theme {
+  --primary-color: red;
+  --secondary-color: black;
+  --text-color: white;
 }
 
 html,
 body {
   font-family: "Poppins", sans-serif;
-  color: #111;
+  background: var(--secondary-color);
+  color: var(--text-color);
 }
 
 /* Commons styles across webpage */
@@ -43,12 +52,12 @@ p {
 .fab {
   margin: 10px 0;
   transition: transform 150ms ease-in-out;
-  color: black;
+  color: var(--primary-color);
 }
 
 .fab:hover {
   transform: scale(1.5);
-  color: var(--primary-color);
+  color: var(--text-color);
 }
 
 .btn {
@@ -120,6 +129,8 @@ p {
   align-items: center;
   justify-content: center;
   visibility: hidden;
+  background: var(--secondary-color);
+  color: var(--text-color);
 }
 
 .navigation li {
@@ -129,12 +140,12 @@ p {
 .navigation .menuitems > li > a {
   text-decoration: none;
   font-size: 2rem;
-  color: black;
+  color: var(--primary-color);
 }
 
 .navigation .menuitems > li > a:hover {
   border-bottom: 2px solid var(--primary-color);
-  color: var(--primary-color);
+  color: var(--text-color);
 }
 
 .navigation .social {
@@ -165,4 +176,12 @@ p {
   .homeSection {
     padding: 100px 40px;
   }
+}
+
+/* Experimental CSS */
+.darkThemeToggler {
+  position: absolute;
+  top: 22px;
+  right: 70px;
+  z-index: 1000;
 }
